@@ -264,7 +264,7 @@ font-size: 5em; */
 
 /* Estilos ao passar o mouse sobre os links nos itens de lista do rodapé */
 #footer-links-container li a:hover {
-    color: #976DF2;
+    color: #66C740;
 }
 
 /* Estilos para a coluna central do rodapé */
@@ -280,7 +280,7 @@ font-size: 5em; */
 
 /* Estilos para o número de telefone na coluna central no rodapé */
 #footer-center .store-phone {
-    color: #976DF2;
+    color: #66C740;
     font-weight: bold;
     font-size: 2rem;
     margin-top: -15px;
