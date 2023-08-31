@@ -55,10 +55,10 @@ body {
   right: 12%;
 }
 
-/* Estilos para o título na legenda do carousel */
+/* Estilos para o título na legenda do carousel
 .carousel-caption h5 {
   font-size: 1.8em;
-}
+} */
 
 /* Media query para telas com largura mínima de 768px */
 @media(min-width: 768px) {
@@ -68,7 +68,7 @@ body {
     height: 600px;
   }
 
-  /* Ajusta posicionamento e espaçamento da legenda do carousel */
+  Ajusta posicionamento e espaçamento da legenda do carousel
   .carousel-caption {
     left: 23%;
     right: 23%;
