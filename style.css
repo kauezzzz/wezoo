@@ -18,7 +18,7 @@
     background-color: #ffffff;
   }
   .secondary-bg-color {
-    background-color: #97E77B;
+    background-color: #C4D7BD;
   }
   .light-bg-color {
     background-color: #FCF5EB;
@@ -40,6 +40,7 @@
   
   /* _____________________________________________________ */
   /* Estilos para a barra de navegação (navbar) */
+  
   
   /* Ajusta a direção e alinhamento dos itens da barra de navegação */
   #navbar .navbar-nav {
@@ -99,7 +100,7 @@
   
   /* Estilo de hover para links 'sobre' */
   .sobre a:hover {
-    color: #0D0D0D !important; /* Importante para sobrepor outros estilos */
+    color: #ffffff !important; /* Importante para sobrepor outros estilos */
   }
   
   /* Ajusta estilo quando a largura da tela é maior que 768px */
@@ -176,7 +177,7 @@
   
   /* Define cor do texto e links na barra de navegação inferior */
   #bottom-navbar-container a {
-    color: #FFF;
+    color: #28680F;
     font-weight: 600;
   }
   
