@@ -18,7 +18,7 @@
     background-color: #ffffff;
   }
   .secondary-bg-color {
-    background-color: #C4D7BD;
+    background-color: #C2F1AF;
   }
   .light-bg-color {
     background-color: #FCF5EB;
@@ -40,7 +40,10 @@
   
   /* _____________________________________________________ */
   /* Estilos para a barra de navegação (navbar) */
-  
+
+  .container .logo{
+justify-content: center;
+  }
   
   /* Ajusta a direção e alinhamento dos itens da barra de navegação */
   #navbar .navbar-nav {
