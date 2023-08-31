@@ -15,10 +15,10 @@
     background-color: #252525;
   }
   .destaque {
-    background-color: #ffffff;
+    background-color: #0D0D0D;
   }
   .secondary-bg-color {
-    background-color: #C2F1AF;
+    background-color: #976DF2;
   }
   .light-bg-color {
     background-color: #FCF5EB;
@@ -177,3 +177,124 @@
   
 /* font-family: 'Natal', cursive;
 font-size: 5em; */
+
+
+/* ____________________________________________________ */
+/* FOOTER */
+
+/* Estilos para a linha que separa os links do rodapé */
+#footer-links-container {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+/* Estilos para as colunas no rodapé */
+#footer .footer-column {
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estilos para as colunas do rodapé em telas maiores */
+@media(min-width: 795px) {
+    #footer .footer-column {
+        padding: 5em 2em;
+    }
+}
+
+/* Estilos para os títulos das colunas de links no rodapé */
+#footer-links-container h3 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+/* Estilos para os itens de lista nos links do rodapé */
+#footer-links-container li {
+    font-size: .8em;
+    text-align: center;
+}
+
+/* Estilos para os links nos itens da lista do rodapé */
+#footer-links-container li a {
+    text-decoration: none;
+}
+
+/* Estilos ao passar o mouse sobre os links nos itens de lista do rodapé */
+#footer-links-container li a:hover {
+    color: #976DF2;
+}
+
+/* Estilos para a coluna central do rodapé */
+#footer-center {
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+}
+
+/* Estilos para o número de telefone na coluna central do rodapé */
+#footer-center h3 {
+    font-weight: 900;
+}
+
+/* Estilos para o número de telefone na coluna central no rodapé */
+#footer-center .store-phone {
+    color: #976DF2;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: -15px;
+}
+
+/* _________________________________________________ */
+/* NEWS */
+
+/* Estilos para o container da seção de newsletter */
+#newsletter-container {
+    background-color: #0D0D0D;
+    border-bottom: 1px solid #F2F2F2;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para o formulário de inscrição na newsletter */
+#news-form {
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+/* Estilos para o ícone no formulário de inscrição */
+#news-form i {
+    font-size: 1.5em;
+}
+
+/* Estilos para o botão no formulário de inscrição */
+#news-form .btn {
+    color: #FFF;
+}
+
+/* Estilos para o container das redes sociais */
+#social-container {
+    margin: 20px auto;
+}
+
+/* Estilos para os ícones de redes sociais */
+#social-container i {
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    color: #F2F2F2;
+    transition: .3s;
+}
+
+/* Estilos ao passar o mouse sobre os ícones de redes sociais */
+#social-container i:hover {
+    color: #66C740;
+}
+
+/* _______________________________________________________ */
+/* COPY */
+
+/* Estilos para o container de direitos autorais */
+#copy-container {
+    text-align: center;
+    padding: 30px;
+}
