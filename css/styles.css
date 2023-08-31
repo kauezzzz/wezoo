@@ -1,8 +1,11 @@
 /* BEST SELLERS */
+body {
+    background-color: rgb(158, 228, 158);
+}
 
 /* Define altura e ajusta o redimensionamento das imagens nos cartões */
 .card-img-top {
-    height: 200px;
+    height: 300px;
     object-fit: cover;
   }
   
@@ -47,7 +50,7 @@
   }
   
   .discount-price {
-    font-size: 24px;
+    font-size: 18px;
     color: black; /* Cor destacada para o preço mais baixo */
   }
   
@@ -59,7 +62,7 @@
   
   /* Ajusta o tamanho da imagem nos cartões */
   .card img {
-    width: 140px;
+    width: 600px;
     margin: 2em auto;
   }
   
@@ -71,17 +74,17 @@
   /* Estilos para o texto nos cartões */
   .card .card-text {
     margin: 2em 0;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   
   /* Estilos para os botões de compra */
   .btn {
-    background-color: transparent;
-    border-color: #976DF2;
+    background-color: green;
+    border-color: greenyellow;
   }
   
   /* Estilos de hover para os botões de compra */
   .btn:hover {
-    background-color: #976DF2;
-    border-color: #976DF2;
+    background-color: rgb(55, 209, 44);
+    border-color: greenyellow;
   }
