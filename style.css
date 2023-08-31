@@ -27,24 +27,10 @@
     background-color: #0D0D0D;
   }
   
-  /* Classes para diferentes cores de texto */
-  .primary-color {
-    color: #976DF2;
-  }
-  .secondary-color {
-    color: #F2F2F2;
-  }
-  .light-color {
-    color: #FCF5EB;
-  }
-  
   /* _____________________________________________________ */
   /* Estilos para a barra de navegação (navbar) */
 
-  .container .logo{
-justify-content: center;
-  }
-  
+
   /* Ajusta a direção e alinhamento dos itens da barra de navegação */
   #navbar .navbar-nav {
     flex-direction: row;
