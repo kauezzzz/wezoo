@@ -192,6 +192,47 @@ justify-content: center;
 /* font-family: 'Natal', cursive;
 font-size: 5em; */
 
+/* ___________________________________________________________ */
+/* Estilos para os banners */
+
+/* Define espaçamento interno para o contêiner de banners */
+#banners-container {
+    padding: 0;
+  }
+  
+  /* Posicionamento e espaçamento para a legenda do carousel */
+  .carousel-caption {
+    bottom: 5em;
+    padding: 1em;
+    left: 12%;
+    right: 12%;
+  }
+  
+  /* Estilos para o título na legenda do carousel
+  .carousel-caption h5 {
+    font-size: 1.8em;
+  } */
+  
+  /* Media query para telas com largura mínima de 768px */
+  @media(min-width: 768px) {
+    /* Ajusta altura dos itens do carousel e imagens */
+    #slider .carousel-item,
+    #slider img {
+      height: 600px;
+    }
+  
+    Ajusta posicionamento e espaçamento da legenda do carousel
+    .carousel-caption {
+      left: 23%;
+      right: 23%;
+    }
+  
+    /* Ajusta tamanho do título na legenda do carousel */
+    .carousel-caption h5 {
+      font-size: 4em;
+    }
+  }
+
 
 /* ____________________________________________________ */
 /* FOOTER */
