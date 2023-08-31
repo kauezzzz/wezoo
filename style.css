@@ -29,6 +29,7 @@
     background-color: #0D0D0D;
   }
   
+  
   /* _____________________________________________________ */
   /* Estilos para a barra de navegação (navbar) */
 
@@ -342,3 +343,40 @@ font-size: 5em; */
     text-align: center;
     padding: 30px;
 }
+
+.card img {
+  height: 200px;
+}
+.btn-success2 {
+  background-color: #28680F !important;
+  color: #fff !important;
+}
+.btn-success2:hover {
+  background-color: #66C740 !important;
+  color: #fff !important;
+}
+
+.afastar {
+  margin-top: 50px;
+}
+
+.inferior {
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
+.loja {
+  color: #28680F;
+  font-weight: bold;
+}
+
+.card-tittle {
+  color: #28680F;
+  font-weight: bolder;
+}
+
+.tittle {
+  color: #28680F;
+  font-weight: bolder;
+}
+
