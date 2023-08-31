@@ -40,7 +40,10 @@
   
   /* _____________________________________________________ */
   /* Estilos para a barra de navegação (navbar) */
-  
+
+  .container .logo{
+justify-content: center;
+  }
   
   /* Ajusta a direção e alinhamento dos itens da barra de navegação */
   #navbar .navbar-nav {
