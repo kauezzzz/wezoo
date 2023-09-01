@@ -20,7 +20,7 @@ body {
   height: 100px;
 }
 .secondary-bg-color {
-  background-color: #C2F1AF;
+  background-color: #fff;
   
 }
 .light-bg-color {
@@ -93,7 +93,7 @@ body {
 
 /* Estilo de hover para links 'sobre' */
 .sobre a:hover {
-  color: #ffffff !important; /* Importante para sobrepor outros estilos */
+  color: #C2F1AF !important; /* Importante para sobrepor outros estilos */
 }
 
 /* Ajusta estilo quando a largura da tela é maior que 768px */
@@ -372,6 +372,7 @@ padding: 0 5%;
 display: flex; 
 align-items: center;
 justify-content: center;
+margin-top: 150px
 }
 
 .navrio {
@@ -526,4 +527,3 @@ margin-top: 10px;
 .membro p {
 font-size: 14px;
 }
-
