@@ -20,8 +20,8 @@
     height: 100px;
   }
   .secondary-bg-color {
-    background-color: #C2F1AF
-    ;
+    background-color: #C2F1AF;
+    
   }
   .light-bg-color {
     background-color: #FCF5EB;
@@ -434,7 +434,8 @@ font-size: 5em; */
   z-index: -1;
   display: flex;
   justify-content: center;
-  margin-right: 100px;
+  /* margin-right: 100px; */
+  width: 100%;
 }
 
 
@@ -470,11 +471,13 @@ justify-content: center;
 
 .somos {
   color: #66C740 ;
+  background-color: white;
 }
 
 .sobre {
   color: #666;
   line-height: 1.5;
+  background-color: white;
 }
 
 /* ______________________________________________________ */
@@ -499,6 +502,7 @@ justify-content: center;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+  background-color: white;
 }
 
 .membro {
