@@ -1,0 +1,54 @@
+/* CSS dos (Cards) */
+
+.title {
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.ajusfigura{
+  --bs-gutter-x: 0 !important;
+
+}
+.ajusRaio {
+  --bs-card-border-radius: 1rem !important;
+  --bs-card-inner-border-radius: calc(1rem - 1px) !important;
+}
+
+section, .title {
+  background-color: rgb(158, 228, 158);
+}
+
+.card img {
+  height: 200px;
+}
+.btn-success2 {
+  background-color: #28680F !important;
+  color: #fff !important;
+}
+.btn-success2:hover {
+  background-color: #66C740 !important;
+  color: #fff !important;
+}
+
+.card-title {
+  color: #28680F;
+  font-weight: bolder;
+}
+
+.title {
+  color: #28680F;
+  font-weight: bolder;
+}
+
+/* Estilo para alinhar botões na parte inferior */
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* ________________________________________________________ */
+

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Wezoo</title>
 
     <!-- Link para (Bootstrap Icons) -->
@@ -41,7 +42,7 @@
     <!-- Itens do menu de navegação inferior -->
     <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse justify-content-center" id="bottom-navbar">
       <li class="nav-item sobre">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#atrações">
           ATRAÇÕES
         </a>
       </li>
@@ -51,7 +52,7 @@
         </a>
       </li>
       <li class="nav-item sobre">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#local">
           LOCALIZAÇÃO
         </a>
       </li>
@@ -76,13 +77,18 @@
     <div class="carousel-inner">
       <!-- Primeiro slide do carousel -->
       <div class="carousel-item active">
-        <img src="img/gifs-de-flamingo-8.gif" class="d-block w-100 img-fluid" alt="...">
+        <img src="img/ingresso.png" class="d-block w-100 img-fluid" alt="...">
       </div>
       <!-- Segundo slide do carousel -->
       <div class="carousel-item">
-        <img src="img/gifs-tiger-5.gif" class="d-block w-100 img-fluid" alt="...">
+        <img src="img/funcionamento.png" class="d-block w-100 img-fluid" alt="...">
       </div>
     </div>
+    <!-- terceiro slide do carousel -->
+    <div class="carousel-item">
+      <img src="img/wepets.png" class="d-block w-100 img-fluid" alt="...">
+    </div>
+  </div>
     <!-- Botões de controle para navegar entre slides -->
     <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -93,11 +99,101 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  
+
+  
+
+           <!-- _____________________________ -->
+          <!-- BEST SELLERS -->
+          <div class="container afastar" id="best-sellers">
+            <!-- Título da seção  -->
+            <h2 class="tittle" id="atrações">Atrações</h2> 
+
+            <!-- Linha com os produtos best sellers -->
+            <div class="row">
+              <!-- Primeiro animal -->
+              <div class="col-12 col-md-3">
+                <div class="card destaque">
+                  <img src="img/araras.png" class="card-img-top img-fluid" alt="Animal">
+                  <div class="card-body">
+                    <!-- Categoria do produto -->
+                    <!-- <p class="card-category secondary-color">Rolex</p> -->
+                    <!-- Título do produto -->
+                    <h5 class="card-tittle secondary-color">Aves</h5>
+                    <p class="card-text primary-color">
+                      <!-- Preço original e preço com desconto do produto  -->
+                      <!-- <span class="original-price">R$17.999,97</span> -->
+                      <span class="discount-price"> As aves são uma classe de seres vivos vertebrados, caracterizada pela presença de penas, um bico sem dentes, oviparidade de casca rígida, elevado metabolismo, um coração com quatro câmaras e um esqueleto pneumático resistente e leve. Há 12.000 espécies de aves no mundo</span>
+                    </p>
+                    <!-- Botão de compra do produto -->
+                    <a href="#" class="btn btn-success2">Saiba mais</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Segundo animal -->
+              <div class="col-12 col-md-3">
+                <div class="card primary-bg-color">
+              <img src="img/tartaruguinha.png" class="card-img-top img-fluid" alt="Animal">
+              <div class="card-body">
+                <!-- Categoria do produto -->
+                <!-- <p class="card-category secondary-color">Patek Philippe</p> -->
+                <!-- Título do produto -->
+              <h5 class="card-tittle secondary-color">Aquáticos</h5>
+              <p class="card-text primary-color">
+                <!-- Preço original e preço com desconto do produto -->
+                <!-- <span class="original-price">R$12.999,97</span> -->
+                <span class="discount-price">São animais que vivem na água. A maioria dos peixes, crustáceos, celenterados e esponjas, são animais aquáticos. O termo "animal aquático" pode ser aplicado a mamíferos aquáticos ou marinhos tal como os da ordem Cetacea, que não podem sobreviver em terra.</span>
+              </p>
+              <!-- Botão de compra do produto   -->
+              <a href="#" class="btn btn-success2">Saiba mais</a>
+              </div>   
+            </div>
+          </div>
+          <!-- Terceiro animal -->
+          <div class="col-12 col-md-3">
+            <div class="card destaque">
+              <img src="img/onça.png" class="card-img-top img-fluid" alt="Animal">
+              <div class="card-body">
+                <!-- Categoria do produto -->
+                <!-- <p class="card-category secondary-color">Audemars Royal</p> -->
+                <!-- Título do produto  -->
+                <h5 class="card-tittle secondary-color">Terrestres</h5>
+                <p class="card-text primary-color">
+                  <!-- Preço original e preço com desconto do produto -->
+                  <!-- <span class="original-price">R$9.999,97</span> -->
+                  <span class="discount-price">Animais terrestres são animais que vivem predominantemente ou inteiramente na terra, em comparação com animais aquáticos, que vivem predominantemente ou inteiramente na água, e anfíbios, que dependem de habitats aquáticos e terrestres. </span>
+                </p>
+                <!-- Botão de compra do produto -->
+                <a href="#" class="btn btn-success2">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+          <!-- Quarto animal -->
+          <div class="col-12 col-md-3">
+            <div class="card primary-bg-color">
+          <img src="img/borboleta.png" class="card-img-top img-fluid" alt="Animal">
+          <div class="card-body">
+            <!-- Categoria do produto -->
+            <!-- <p class="card-category secondary-color">Hublot</p> -->
+            <!-- Título do produto -->
+          <h5 class="card-tittle secondary-color">Insetos</h5>
+          <p class="card-text primary-color">
+            <!-- Preço original e preço com desconto do produto -->
+            <!-- <span class="original-price">R$37.999,97</span> -->
+            <span class="discount-price">Insetos são animais invertebrados do filo dos artrópodes. Possuem exoesqueleto resistente; patas articuladas; corpo dividido em cabeça, tórax e abdome; três pares de patas; um par de antenas; um par de olhos compostos; e peças bucais aparentes.</span>
+          </p>
+          <!-- Botão de compra do produto   -->
+          <a href="#" class="btn btn-success2">Saiba mais</a>
+          </div>   
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 <!-- FOOTER -->
 <footer id="footer">
-  <div class="container-fluid" id="footer-links-container">
+  <div class="container" id="footer-links-container">
     <div class="row">
       <!-- Coluna para links de páginas -->
       <div class="col-12 col-md-4 footer-column">
@@ -146,11 +242,16 @@
       <i class="bi bi-twitter"></i>
     </div>
   </div>
+
+  
+
   <!-- Texto de direitos autorais -->
   <div class="container" id="copy-container">
     <p>Alguns direitos reservados @2023 <span class="primary-color">Wezoo</span> - Onde a natureza ganha vida! </p>
   </div>
 </footer>
+
+
 
 
 
