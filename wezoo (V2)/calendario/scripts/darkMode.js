@@ -24,11 +24,11 @@ const initialColors = {
 
 const darkMode = {
   bodyColor:'#282a36',
-  headerColor: '#ff5555',
+  headerColor: '#28680',
   headerButton:'#bd93f9',
   colorWeekdays: '#6272a4' ,
   currentDay: '#f8f8f2',
-  eventColor: '#6272a4',
+  eventColor: '#7cc56d',
   colorDay: '#44475a',
   modalEvent: '#6272a4'
   
