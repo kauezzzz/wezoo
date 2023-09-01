@@ -19,7 +19,7 @@
     background-color: #ffffff;
   }
   .secondary-bg-color {
-    background-color: #C2F1AF
+    background-color: #C2F1AF;
     ;
   }
   .light-bg-color {
@@ -222,8 +222,11 @@ font-size: 5em; */
     }
   }
 
+  /* CALENDÁRIO */
+
 
 /* ____________________________________________________ */
+
 /* FOOTER */
 
 /* Estilos para a linha que separa os links do rodapé */
