@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Wezoo</title>
+
+    <!-- Link para (Bootstrap Icons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<!-- LINK BOOTSTRAP -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+<!-- LINK JS BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" defer></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+  <!-- Primeira Barra de Navegação -->
+  <nav class="navbar navbar-expand-lg destaque py-4 px-2" id="navbar">
+    <div class="container justify-content-center">
+      <!-- Marca ou Logo -->
+          <img src="img/wezoo.png" class="logo" width="75px">
+    </div>
+</nav>
+
+<!-- Barra de Navegação Inferior -->
+<nav class="navbar navbar-expand-lg secondary-bg-color p-2" id="bottom-navbar-container">
+  <div class="container">
+    <!-- Botão para mostrar/esconder o menu -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    data-bs-target="#bottom-navbar" aria-controls="bottom-navbar" aria-expanded="false"
+    aria-label="Toggle navigation">
+      <i class="bi bi-list"></i>
+    </button>
+
+    <!-- Itens do menu de navegação inferior -->
+    <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse justify-content-center" id="bottom-navbar">
+      <li class="nav-item sobre">
+        <a class="nav-link" href="#atracoes">
+          ATRAÇÕES
+        </a>
+      </li>
+      <li class="nav-item sobre">
+        <a class="nav-link" href="#">
+          AGENDA
+        </a>
+      </li>
+      <li class="nav-item sobre">
+        <a class="nav-link" href="#localizacao">
+          LOCALIZAÇÃO
+        </a>
+      </li>
+      <li class="nav-item sobre">
+        <a class="nav-link" href="#social-container">
+          CONTATO
+        </a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+
+</div>
+
+ <!-- __________________________________________________________- -->
+ <!-- Carousel -->
+
+<div class="container-fluid" id="banners-container">
+  <div id="slider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Primeiro slide do carousel -->
+      <div class="carousel-item active">
+        <img src="img/gifs-de-flamingo-8.gif" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <!-- Segundo slide do carousel -->
+      <div class="carousel-item">
+        <img src="img/gifs-tiger-5.gif" class="d-block w-100 img-fluid" alt="...">
+      </div>
+    </div>
+    <!-- Botões de controle para navegar entre slides -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- __________________________________________________________- -->
+  <!-- Cards -->
+
+  <!-- Título da seção  -->
+  <h2 class="title" id="atracoes">Atrações</h2> 
+
+  <section class="row d-flex justify-content-evenly ajusfigura">
+    <!-- Primeiro animal -->
+    <div class="card text-center card col-3 mb-5 ajusRaio" style="width: 18rem;">
+      <img src="img/araras.png" class="card-img-top" alt="...">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Aves</h5>
+        <p class="card-text">As aves são uma classe de seres vivos vertebrados, caracterizada pela presença de penas, um bico sem dentes, oviparidade de casca rígida, elevado metabolismo, um coração com quatro câmaras e um esqueleto pneumático resistente e leve. Há 12.000 espécies de aves no mundo</p>
+        <a href="cadastro.php" class="btn btn-success2 mt-auto">Comprar agora</a>
+      </div>
+    </div>
+
+    <!-- Segundo animal -->
+    <div class="card text-center card col-3 mb-5 ajusRaio" style="width: 18rem;">
+      <img src="img/cobra.jpg" class="card-img-top" alt="...">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Aquáticos</h5>
+        <p class="card-text">São animais que vivem na água. A maioria dos peixes, crustáceos, celenterados e esponjas, são animais aquáticos. O termo "animal aquático" pode ser aplicado a mamíferos aquáticos ou marinhos tal como os da ordem Cetacea, que não podem sobreviver em terra.</p>
+        <a href="cadastro.php" class="btn btn-success2 mt-auto">Comprar agora</a>
+      </div>
+    </div>
+
+    <!-- Terceiro animal -->
+    <div class="card text-center card col-3 mb-5 ajusRaio" style="width: 18rem;">
+      <img src="img/onça.png" class="card-img-top" alt="...">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Terrestres</h5>
+        <p class="card-text">Animais terrestres são animais que vivem predominantemente ou inteiramente na terra, em comparação com animais aquáticos, que vivem predominantemente ou inteiramente na água, e anfíbios, que dependem de habitats aquáticos e terrestres. </p>
+        <a href="cadastro.php" class="btn btn-success2 mt-auto">Comprar agora</a>
+      </div>
+    </div>
+
+    <!-- Quarto animal -->
+    <div class="card text-center card col-3 mb-5 ajusRaio" style="width: 18rem;">
+      <img src="img/cobra.jpg" class="card-img-top" alt="...">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Insetos</h5>
+        <p class="card-text">Insetos são animais invertebrados do filo dos artrópodes. Possuem exoesqueleto resistente; patas articuladas; corpo dividido em cabeça, tórax e abdome; três pares de patas; um par de antenas; um par de olhos compostos; e peças bucais aparentes.</p>
+        <a href="cadastro.php" class="btn btn-success2 mt-auto">Comprar agora</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- __________________________________________________________- -->
+  <!-- Mapa -->
+
+  <div class="inferior" id="localizacao">
+    <div class="mapa">
+        <div class="loja">
+        <h2 class="loja">Nossa localização:</h2><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.077998472882!2d-46.53877409014215!3d-23.637377564298703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42bea5555555%3A0x304c99916fe0aa3f!2sSesi%20Santo%20Andr%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1682462949309!5m2!1spt-BR!2sbr" width="100%" height="317" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+
+    <!-- __________________________________________________________- -->
+    <!-- FOOTER -->
+
+    <footer id="footer">
+      <div class="container-fluid" id="footer-links-container">
+        <div class="row">
+          <!-- Coluna para links de páginas -->
+          <div class="col-12 col-md-4 footer-column">
+            <h3>Páginas</h3>
+            <!-- Lista de links de páginas -->
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" class="secondary-color">Home</a></li>
+              <li class="mb-2"><a href="#" class="secondary-color">Promoções</a></li>
+              <li class="mb-2"><a href="#" class="secondary-color">Contato</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 footer-column" id="footer-center">
+            <h3>Wezoo</h3>
+            <p class="secondary-color">Alguma dúvida? Ligue para nós</p>
+            <p class="store-phone"><i class="bi bi-telephone"></i>(50)99999-9999</p>
+          </div>
+          <div class="col-12 col-md-4 footer-column">
+            <h3>Informações</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" class="secondary-color">Política de Privacidade</a></li>
+              <li class="mb-2"><a href="#" class="secondary-color">Política de Entregas</a></li>
+              <li class="mb-2"><a href="#" class="secondary-color">Rastreie seu pedido</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Seção para a newsletter -->
+      <div  id="newsletter-container">
+        <div class="col-12">
+          <div class="row">
+            <p class="secondary-color">Se inscreva na nossa Newsletter</p>
+            <!-- Formulário para inscrição na newsletter -->
+            <form class="d-flex" id="news-form">
+              <i class="bi bi-envelope primary-color"></i>
+              <input class="form-control me-2" placeholder="Insira seu e-mail">
+              <button class="btn secondary-bg-color" type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+        <!-- Ícones de redes sociais -->
+        <div class="col-12" id="social-container">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-twitter"></i>
+        </div>
+      </div>
+
+      <!-- Texto de direitos autorais -->
+      <div class="container" id="copy-container">
+        <p>Alguns direitos reservados @2023 <span class="primary-color">Wezoo</span> - Onde a natureza ganha vida! </p>
+      </div>
+    </footer>
+
+
+</body>
+</html>
