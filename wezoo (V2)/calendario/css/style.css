@@ -7,7 +7,7 @@ html{
 
   --header-button:#aaeba2;
 
-  --color-weekdays: #C2F1AF;
+  --color-weekdays: #28680F;
   
   --box-shadow: #CBD4C2;
 
@@ -154,3 +154,8 @@ button {
   background-color: rgba(0,0,0,0.8);
 }
 
+.botao-home{
+  color: #FFFCFF;
+  margin-top: 700px;
+  background-color: #aaeba2;
+}
