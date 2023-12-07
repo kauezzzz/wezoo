@@ -240,6 +240,7 @@ font-size: 5em; */
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: #ffffff;
 }
 
 /* Estilos para as colunas do rodapé em telas maiores */
