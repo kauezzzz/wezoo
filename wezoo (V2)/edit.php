@@ -24,8 +24,8 @@
         <input type="text" class="form-control" id="senha" name="senha" placeholder="Digite a sua senha" value="<?= $contact['senha'] ?>" required>
       </div>
       <div class="form-group">
-        <label for="observations">Observações:</label>
-        <textarea type="text" class="form-control" id="observations" name="observations" placeholder="Insira as observações" rows="3"><?= $contact['observations'] ?></textarea>
+        <label for="observations">Função na Wezoo:</label>
+        <textarea type="text" class="form-control" id="observations" name="observations" placeholder="Insira sua a função" rows="3"><?= $contact['observations'] ?></textarea>
       </div>
       <button type="submit" class="btn btn-success">Atualizar</button>
     </form>

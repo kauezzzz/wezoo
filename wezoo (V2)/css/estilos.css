@@ -4,7 +4,7 @@ body{
 }
 
 .Buffet{
-background-color: #343a40;
+background-color: #155724;
 }
 
 
@@ -16,6 +16,7 @@ background-color: #343a40;
 #main-title {
   text-align: center;
   margin: 15px 0 30px;
+  color: #155724;
 }
 
 /* HOME */
@@ -25,8 +26,8 @@ background-color: #343a40;
 }
 
 #contacts-table thead {
-  color: #FFF;
-  background-color: #343a40;
+  color: #155724;
+  background-color: #fff;
 }
 
 .col-id {
@@ -97,10 +98,11 @@ background-color: #343a40;
 }
 
 #back-link {
-  border: 1px solid #343a40;
-  color: #343a40;
+  border: 1px solid #28680F;
+  color: #28680F;
   border-radius: 4px;
   padding: 5px;
+background-color: #C3E6CB;
 }
 
 #back-link:hover {
