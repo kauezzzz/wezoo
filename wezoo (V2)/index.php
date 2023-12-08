@@ -41,6 +41,7 @@
           <?php endforeach; ?>
         </tbody>
       </table>
+      
     <?php else: ?>  
       <p id="empty-list-text">Ainda não há perfis na sua agenda, <a href="<?= $BASE_URL ?>create.php">clique aqui para adicionar</a>.</p>
     <?php endif; ?>
