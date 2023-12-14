@@ -1,3 +1,11 @@
+Hospedagem (Online)
+
+BD:devsse70_wezoo
+Usuário:devsse70_wezoo
+Senha:F&+9fK[!!Pzw
+
+-- _________________________________
+
 CREATE DATABASE wezoo;
 
 USE wezoo;
